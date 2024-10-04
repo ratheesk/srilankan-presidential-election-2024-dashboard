@@ -2,24 +2,45 @@
 
 import DashboardCard from '@/app/(DashboardLayout)/components/shared/DashboardCard';
 import { useFetchCSV } from '@/hooks/useFetchCSV';
-import ResultsTable from '../../components/results/ResultsTable';
+import AllIslandResults from '../../components/results/AllIslandResults';
+import AllIslandFinalResults from '../../components/results/AllIslandFinalResult';
 
-interface Result {
+interface AllIslandResult {
   candidate: string;
   party: string;
   votes_received: number;
   percentage: number;
 }
 
+interface AllIslandFinalResult {
+  candidate: string;
+  party: string;
+  votes_received: number;
+  preferences: number;
+}
+
 const FinalResults = () => {
-  const { data: results, error } = useFetchCSV<Result>(
-    '/data/all_island_results.csv'
-  );
+  const { data: allIslandResults, error: allIslandResultsError } =
+    useFetchCSV<AllIslandResult>('/data/all_island_results.csv');
+
+  const { data: allIslandFinalResults, error: allIslandFinalResultsError } =
+    useFetchCSV<AllIslandFinalResult>('/data/all_island_final_result.csv');
 
   return (
-    <DashboardCard title="2024 Presidential Election Final Results">
-      <ResultsTable results={results} error={error} />
-    </DashboardCard>
+    <>
+      <DashboardCard title="All Island Final Results">
+        <AllIslandFinalResults
+          results={allIslandFinalResults}
+          error={allIslandFinalResultsError}
+        />
+      </DashboardCard>
+      <DashboardCard title="All Island Results">
+        <AllIslandResults
+          results={allIslandResults}
+          error={allIslandResultsError}
+        />
+      </DashboardCard>
+    </>
   );
 };
 

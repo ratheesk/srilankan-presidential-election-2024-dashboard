@@ -2,22 +2,24 @@
 
 import { DataGrid, GridColDef, GridToolbar } from '@mui/x-data-grid';
 import { Typography, Box } from '@mui/material';
-import { renderProgress } from '../tables/cell-renderers/Progress';
 import { renderAvatar } from '../tables/cell-renderers/Avatar';
 
-interface Result {
+interface AllIslandFinalResult {
   candidate: string;
   party: string;
   votes_received: number;
-  percentage: number;
+  preferences: number;
 }
 
-interface ResultsTableProps {
-  results: Result[];
+interface AllIslandFinalResultProps {
+  results: AllIslandFinalResult[];
   error: string | null;
 }
 
-const ResultsTable: React.FC<ResultsTableProps> = ({ results, error }) => {
+const AllIslandFinalResult: React.FC<AllIslandFinalResultProps> = ({
+  results,
+  error,
+}) => {
   if (error) {
     return <Typography color="error">{`Error: ${error}`}</Typography>;
   }
@@ -44,10 +46,16 @@ const ResultsTable: React.FC<ResultsTableProps> = ({ results, error }) => {
       flex: 1,
     },
     {
-      field: 'percentage',
-      headerName: 'Percentage',
-      renderCell: renderProgress,
+      field: 'preferences',
+      headerName: 'Preferences',
       flex: 1,
+    },
+    {
+      field: 'total_votes',
+      headerName: 'Total Votes',
+      flex: 1,
+      valueGetter: (value, row) =>
+        Number(row.votes_received) + Number(row.preferences),
     },
   ];
 
@@ -69,4 +77,4 @@ const ResultsTable: React.FC<ResultsTableProps> = ({ results, error }) => {
   );
 };
 
-export default ResultsTable;
+export default AllIslandFinalResult;
