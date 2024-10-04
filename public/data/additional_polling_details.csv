@@ -1,0 +1,183 @@
+district,polling_division,valid_votes,rejected_votes,total_polled,total_electors
+Colombo,Postal Votes,34190,1059,35249,35636
+Colombo,ColomboNorth,69243,2276,71519,97620
+Colombo,ColomboCentral,88982,2522,91504,118986
+Colombo,Borella,45486,1078,46564,62623
+Colombo,ColomboEast,47513,1215,48728,67112
+Colombo,ColomboWest,27558,731,28289,42048
+Colombo,Dehiwala,46342,1172,47514,66062
+Colombo,Ratmalana,49927,1274,51201,70250
+Colombo,Kolonnawa,108242,2431,110673,142482
+Colombo,Kotte,54258,1360,55618,75810
+Colombo,Kaduwela,150692,3097,153789,198793
+Colombo,Avissawella,102604,2385,104989,129439
+Colombo,Homagama,161728,3689,165417,207235
+Colombo,Maharagama,105675,2380,108055,140699
+Colombo,Kesbewa,147160,3181,150341,190053
+Colombo,Moratuwa,94790,1946,96736,120503
+Gampaha,Postal Votes,50589,1416,52005,52486
+Gampaha,Wattala,102774,2526,105300,138957
+Gampaha,Negambo,82306,1690,83996,115968
+Gampaha,Katana,126599,2412,129011,167689
+Gampaha,Divulapitiya,94127,1763,95890,118718
+Gampaha,Mirigama,105288,2072,107360,132932
+Gampaha,Minuwangoda,118228,2222,120450,149482
+Gampaha,Attanagalla,114974,2159,117133,145602
+Gampaha,Gampaha,126790,2286,129076,163087
+Gampaha,Ja-Ela,121990,2384,124374,163461
+Gampaha,Mahara,131741,2571,134312,169884
+Gampaha,Dompe,102669,2226,104895,127767
+Gampaha,Biyagama,109045,1947,110992,138720
+Gampaha,Kelaniya,71269,1707,72976,96376
+Kalutara,Postal Votes,35959,763,36722,37348
+Kalutara,Panadura,97478,2056,99534,125088
+Kalutara,Bandaragama,124017,2403,126420,154272
+Kalutara,Horana,111516,2437,113953,140590
+Kalutara,Bulathsinhala,69098,1734,70832,86639
+Kalutara,Matugama,93120,1792,94912,117866
+Kalutara,Kalutara,99798,1859,101657,127561
+Kalutara,Beruwala,102804,1751,104555,130456
+Kalutara,Agalawatta,83728,1448,85176,104424
+Mahanuwara,Postal Votes,53700,1494,55194,55797
+Mahanuwara,Galagedara,42603,895,43498,54236
+Mahanuwara,Harispattuwa,134611,3067,137678,173626
+Mahanuwara,Patadumbara,71337,1796,73133,93042
+Mahanuwara,Udadumbara,50022,981,51003,61289
+Mahanuwara,Teldeniya,39930,1301,41231,50662
+Mahanuwara,Kundasale,82768,2100,84868,106339
+Mahanuwara,Hewahata,57514,1704,59218,74173
+Mahanuwara,Senkadagala,64635,1694,66329,87760
+Mahanuwara,Mahanuwara,30109,534,30643,41303
+Mahanuwara,Yatinuwara,67192,1550,68742,85893
+Mahanuwara,Udunuwara,70827,1573,72400,89918
+Mahanuwara,Gampola,87198,2750,89948,113385
+Mahanuwara,Nawalapitiya,81070,2714,83784,103976
+Matale,Postal Votes,20928,484,21412,21667
+Matale,Dambulla,113904,2104,116008,143731
+Matale,Laggala,59939,1338,61277,73955
+Matale,Matale,68857,1813,70670,90943
+Matale,Rattota,76106,2182,78288,99695
+Nuwaraeliya,Postal Votes,18975,536,19511,19727
+Nuwaraeliya,N.E.Maskeliya,260273,8311,268584,340077
+Nuwaraeliya,Kothmale,67115,1809,68924,85188
+Nuwaraeliya,Hanguranketha,59165,1670,60835,73426
+Nuwaraeliya,Walapane,68407,2317,70724,86874
+Galle,Postal Votes,40140,927,41067,41437
+Galle,Balapitiya,40821,723,41544,54973
+Galle,Ambalangoda,62314,1169,63483,79794
+Galle,Karandeniya,59563,807,60370,77636
+Galle,BentaraElpitiya,72137,1265,73402,92167
+Galle,Hiniduma,82256,1442,83698,103104
+Galle,Baddegama,79931,1591,81522,100243
+Galle,Ratgama,60755,1116,61871,80860
+Galle,Galle,65220,1001,66221,83799
+Galle,Akmeemana,82005,1355,83360,103687
+Galle,Habaraduwa,67678,1145,68823,85463
+Matara,Postal Votes,29904,593,30497,30882
+Matara,Deniyaya,81968,1921,83889,104770
+Matara,Hakmana,75650,1370,77020,95213
+Matara,Akuressa,79125,1281,80406,98112
+Matara,Kamburupitiya,65880,1164,67044,82533
+Matara,Devinuwara,63462,968,64430,81870
+Matara,Matara,73791,1111,74902,92643
+Matara,Weligama,78549,1279,79828,100152
+Hambantota,Postal Votes,21549,449,21998,22167
+Hambantota,Mulkirigala,86526,1414,87940,106421
+Hambantota,Beliatta,64239,959,65198,79751
+Hambantota,Tangalle,106537,1584,108121,130755
+Hambantota,Tissamaharama,148211,2037,150248,181846
+Jaffna,Postal Votes,24061,1089,25150,25429
+Jaffna,Kayts,16174,1028,17202,24860
+Jaffna,Vadducoddai,31589,2437,34026,52092
+Jaffna,Kankesanthurai,27593,2144,29737,45989
+Jaffna,Manipay,37330,2644,39974,60144
+Jaffna,Kopai,37287,2817,40104,62449
+Jaffna,Uduppiddy,22583,1586,24169,41255
+Jaffna,Point-Pedro,22988,1548,24536,39681
+Jaffna,Chavakachcheri,31186,2263,33449,55829
+Jaffna,Nallur,31526,1860,33386,50853
+Jaffna,Jaffna,24786,1242,26028,37355
+Jaffna,Kilinochchi,64585,4695,69280,97251
+Vanni,Postal Votes,12764,344,13108,13389
+Vanni,Mannar,63412,2082,65494,86509
+Vanni,Vavuniya,85808,3395,89203,122860
+Vanni,Mulaithivu,55285,3560,58845,83323
+Batticaloa,Postal Votes,12704,235,12939,13116
+Batticaloa,Kalkuda,92438,2360,94798,131380
+Batticaloa,Batticaloa,147738,3861,151599,203232
+Batticaloa,Paddiruppu,65768,2420,68188,101958
+Digamadulla,Postal Votes,26066,491,26557,26778
+Digamadulla,Ampara,142294,1962,144256,172611
+Digamadulla,Sammanthurai,69464,1103,70567,97118
+Digamadulla,Kalmunai,57200,950,58150,80368
+Digamadulla,Pothuvil,128373,2057,130430,178557
+Trincomalee,Postal Votes,14463,317,14780,14964
+Trincomalee,Seruwila,64259,1317,65576,80269
+Trincomalee,Trincomalee,73919,2508,76427,101481
+Trincomalee,Muthur,86820,1679,88499,119211
+Kurunegala,Postal Votes,74583,1777,76360,76977
+Kurunegala,Galgamuwa,86150,1146,87296,106867
+Kurunegala,Nikaweratiya,79164,1432,80596,99694
+Kurunegala,Yapahuwa,94379,1577,95956,119043
+Kurunegala,Hiriyala,82471,1273,83744,104903
+Kurunegala,Wariyapola,64156,1152,65308,80312
+Kurunegala,Paduwasnuwara,62005,914,62919,77970
+Kurunegala,Bingiriya,73196,1123,74319,95467
+Kurunegala,Katugampola,80424,1346,81770,101613
+Kurunegala,Kuliyapitiya,83204,1375,84579,106344
+Kurunegala,Dambadeniya,76982,1318,78300,97305
+Kurunegala,Polgahawela,63430,1182,64612,80742
+Kurunegala,Kurunegala,75649,1278,76927,97155
+Kurunegala,Mawathagama,76880,1415,78295,98616
+Kurunegala,Dodangaslanda,57620,1029,58649,74218
+Puttalam,Postal Votes,14423,290,14713,14967
+Puttalam,Puttalam,121604,2417,124021,171296
+Puttalam,Anamaduwa,96706,1786,98492,127434
+Puttalam,Chillaw,94247,1494,95741,131506
+Puttalam,Nattandiya,67222,1047,68269,101819
+Puttalam,Wennappuwa,75893,1245,77138,116651
+Anuradhapura,Postal Votes,53484,1000,54484,55191
+Anuradhapura,Medawachchiya,74092,952,75044,90179
+Anuradhapura,Horowpathana,70646,989,71635,86717
+Anuradhapura,AnuradhapuraEast,84597,1445,86042,105697
+Anuradhapura,AnuradhapuraWest,89243,1493,90736,111756
+Anuradhapura,Kalawewa,105772,1722,107494,132651
+Anuradhapura,Mihinthale,55621,916,56537,70291
+Anuradhapura,Kekirawa,70231,1265,71496,89380
+Polonnaruwa,Postal Votes,19211,372,19583,19858
+Polonnaruwa,Minneriya,70566,1328,71894,89051
+Polonnaruwa,Medirigiriya,65931,1113,67044,82780
+Polonnaruwa,Polonnaruwa,128093,2149,130242,159613
+Badulla,Postal Votes,40488,783,41271,42061
+Badulla,Mahiyangana,87240,1559,88799,105784
+Badulla,Wiyaluwa,43181,1312,44493,54273
+Badulla,Passara,51601,1831,53432,67051
+Badulla,Badulla,45424,1307,46731,57589
+Badulla,Haliela,58688,1970,60658,74382
+Badulla,Uvaparanagama,52603,1300,53903,64840
+Badulla,Welimada,64534,1646,66180,80452
+Badulla,Bandarawela,70667,1969,72636,89166
+Badulla,Haputhale,54498,1842,56340,70174
+Monaragala,Postal Votes,23989,555,24544,24797
+Monaragala,Bibila,73236,1402,74638,88625
+Monaragala,Moneragala,96791,2124,98915,117333
+Monaragala,Wellawaya,141066,2590,143656,168411
+Ratnapura,Postal Votes,31539,640,32179,32530
+Ratnapura,Eheliyagoda,81526,1559,83085,103290
+Ratnapura,Ratnapura,105212,1972,107184,131522
+Ratnapura,Pelmadulla,74474,1585,76059,94099
+Ratnapura,Balangoda,93861,2080,95941,117507
+Ratnapura,Rakwana,89219,1857,91076,112997
+Ratnapura,Nivithigala,85210,1981,87191,106254
+Ratnapura,Kalawana,55978,1201,57179,69438
+Ratnapura,Kolonna,124881,2195,127076,156099
+Kegalle,Postal Votes,33904,894,34798,35103
+Kegalle,Dedigama,71713,1401,73114,89241
+Kegalle,Galigamuwa,53788,1106,54894,67289
+Kegalle,Kegalle,57762,1125,58887,72552
+Kegalle,Rambukkana,53852,1119,54971,67403
+Kegalle,Mawanella,75697,1416,77113,97200
+Kegalle,Aranayake,41644,942,42586,52352
+Kegalle,Yatiyantota,61883,1333,63216,77885
+Kegalle,Ruwanwella,62781,1270,64051,78725
+Kegalle,Deraniyagala,56655,1272,57927,71872
