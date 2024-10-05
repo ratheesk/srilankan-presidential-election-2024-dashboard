@@ -12,7 +12,7 @@ interface DistrictPostalVoteResult {
   votes_received: number;
 }
 
-const DistrictPreference = () => {
+const PostalVoting = () => {
   const { data: DistrictPostalVoteResult, error: districtPreferenceError } =
     useFetchCSV<DistrictPostalVoteResult>('/data/postal_votes_results.csv');
 
@@ -31,4 +31,4 @@ const DistrictPreference = () => {
   );
 };
 
-export default DistrictPreference;
+export default PostalVoting;

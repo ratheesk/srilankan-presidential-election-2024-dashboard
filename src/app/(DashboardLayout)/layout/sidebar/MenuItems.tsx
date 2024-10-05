@@ -42,6 +42,12 @@ const Menuitems = [
     icon: IconMailForward,
     href: '/results/district-postal-results',
   },
+  {
+    id: uniqueId(),
+    title: 'Polling Divisions',
+    icon: IconMailForward,
+    href: '/results/polling-division-results',
+  },
 ];
 
 export default Menuitems;
