@@ -1,28 +1,39 @@
-// ResultsTable.tsx
-
+import { useState } from 'react';
 import { DataGrid, GridColDef, GridToolbar } from '@mui/x-data-grid';
-import { Typography, Box } from '@mui/material';
+import { Typography, Box, Autocomplete, TextField } from '@mui/material';
 import { renderAvatar } from '../tables/cell-renderers/Avatar';
 
-interface DistrictPreferenceResult {
+interface DistrictPostalVoteResult {
   district: string;
   candidate: string;
   party: string;
-  preferences: number;
+  votes_received: number;
 }
 
-interface DistrictPreferenceResultProps {
-  results: DistrictPreferenceResult[];
+interface DistrictPostalVoteResultProps {
+  results: DistrictPostalVoteResult[];
   error: string | null;
 }
 
-const DistrictPreferenceResults: React.FC<DistrictPreferenceResultProps> = ({
+const DistrictPostalVoteResults: React.FC<DistrictPostalVoteResultProps> = ({
   results,
   error,
 }) => {
+  const [selectedDistrict, setSelectedDistrict] = useState<string | null>(null);
+
   if (error) {
     return <Typography color="error">{`Error: ${error}`}</Typography>;
   }
+
+  // Get a list of unique districts for the Autocomplete
+  const districts = Array.from(
+    new Set(results.map((result) => result.district))
+  );
+
+  // Filter rows based on the selected district
+  const filteredResults = selectedDistrict
+    ? results.filter((result) => result.district === selectedDistrict)
+    : results;
 
   const columns: GridColDef<(typeof rows)[number]>[] = [
     { field: 'district', headerName: 'District', flex: 1 },
@@ -30,7 +41,6 @@ const DistrictPreferenceResults: React.FC<DistrictPreferenceResultProps> = ({
       field: 'avatar',
       headerName: '',
       display: 'flex',
-
       renderCell: renderAvatar,
       valueGetter: (value, row) =>
         row.party == null
@@ -42,20 +52,30 @@ const DistrictPreferenceResults: React.FC<DistrictPreferenceResultProps> = ({
     { field: 'candidate', headerName: 'Candidate', flex: 1 },
     { field: 'party', headerName: 'Party', flex: 1 },
     {
-      field: 'preferences',
-      headerName: 'Preferences',
+      field: 'votes_received',
+      headerName: 'Votes Received',
       flex: 1,
     },
   ];
 
   // Add IDs for DataGrid, assuming results come in order
-  const rows = results.map((result, index) => ({
+  const rows = filteredResults.map((result, index) => ({
     id: index,
     ...result,
   }));
 
   return (
     <Box sx={{ width: '100%' }}>
+      <Autocomplete
+        options={districts}
+        value={selectedDistrict}
+        onChange={(event, newValue) => setSelectedDistrict(newValue)}
+        renderInput={(params) => (
+          <TextField {...params} label="Select District" />
+        )}
+        sx={{ mb: 2, width: 300 }}
+      />
+
       <DataGrid
         rows={rows}
         columns={columns}
@@ -67,4 +87,4 @@ const DistrictPreferenceResults: React.FC<DistrictPreferenceResultProps> = ({
   );
 };
 
-export default DistrictPreferenceResults;
+export default DistrictPostalVoteResults;

@@ -1,6 +1,7 @@
 import {
   IconChartHistogram,
   IconLayoutDashboard,
+  IconMailForward,
   IconTrophy,
 } from '@tabler/icons-react';
 
@@ -34,6 +35,12 @@ const Menuitems = [
     title: 'District Preferences',
     icon: IconChartHistogram,
     href: '/results/district-preference-results',
+  },
+  {
+    id: uniqueId(),
+    title: 'Postal Voting',
+    icon: IconMailForward,
+    href: '/results/district-postal-results',
   },
 ];
 

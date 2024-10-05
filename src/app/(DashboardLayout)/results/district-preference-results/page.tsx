@@ -6,7 +6,7 @@ import DistrictPreferenceResults from '../../components/results/DistrictPreferen
 import PageContainer from '../../components/container/PageContainer';
 
 interface DistrictPreferenceResult {
-  district: DOMStringList;
+  district: string;
   candidate: string;
   party: string;
   preferences: number;
