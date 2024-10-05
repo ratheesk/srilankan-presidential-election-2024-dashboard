@@ -1,4 +1,8 @@
-import { IconLayoutDashboard, IconTrophy } from '@tabler/icons-react';
+import {
+  IconChartHistogram,
+  IconLayoutDashboard,
+  IconTrophy,
+} from '@tabler/icons-react';
 
 import { uniqueId } from 'lodash';
 
@@ -24,6 +28,12 @@ const Menuitems = [
     title: 'Final Results',
     icon: IconTrophy,
     href: '/results/final-results',
+  },
+  {
+    id: uniqueId(),
+    title: 'District Preferences',
+    icon: IconChartHistogram,
+    href: '/results/district-preference-results',
   },
 ];
 

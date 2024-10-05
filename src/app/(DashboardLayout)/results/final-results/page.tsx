@@ -4,6 +4,7 @@ import DashboardCard from '@/app/(DashboardLayout)/components/shared/DashboardCa
 import { useFetchCSV } from '@/hooks/useFetchCSV';
 import AllIslandResults from '../../components/results/AllIslandResults';
 import AllIslandFinalResults from '../../components/results/AllIslandFinalResult';
+import PageContainer from '../../components/container/PageContainer';
 
 interface AllIslandResult {
   candidate: string;
@@ -27,7 +28,10 @@ const FinalResults = () => {
     useFetchCSV<AllIslandFinalResult>('/data/all_island_final_result.csv');
 
   return (
-    <>
+    <PageContainer
+      title="Final Results"
+      description="Srilankan Presidential Election - 2024 Final Results"
+    >
       <DashboardCard title="All Island Final Results">
         <AllIslandFinalResults
           results={allIslandFinalResults}
@@ -40,7 +44,7 @@ const FinalResults = () => {
           error={allIslandResultsError}
         />
       </DashboardCard>
-    </>
+    </PageContainer>
   );
 };
 
