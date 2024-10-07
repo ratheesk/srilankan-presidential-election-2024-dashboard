@@ -46,7 +46,7 @@ const PollingDivisionResults: React.FC<PollingDivisionResultProps> = ({
               .filter((result) => result.district === selectedDistrict)
               .map((result) => result.polling_division)
           )
-        );
+        ).filter((division) => division !== 'Postal Votes');
 
   // Filter rows based on the selected district and polling division
   const filteredResults = results.filter((result) => {
@@ -72,7 +72,7 @@ const PollingDivisionResults: React.FC<PollingDivisionResultProps> = ({
       valueGetter: (value, row) =>
         row.party == null
           ? null
-          : { name: row.party, src: '/symbols/' + row.party + '.png' },
+          : { name: row.party, src: '/imgs/symbols/' + row.party + '.png' },
       sortable: false,
       filterable: false,
     } as GridColDef<any, { src: string; name: string }>,

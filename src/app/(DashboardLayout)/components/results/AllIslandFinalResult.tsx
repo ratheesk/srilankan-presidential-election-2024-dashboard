@@ -34,7 +34,7 @@ const AllIslandFinalResult: React.FC<AllIslandFinalResultProps> = ({
       valueGetter: (value, row) =>
         row.party == null
           ? null
-          : { name: row.party, src: '/symbols/' + row.party + '.png' },
+          : { name: row.party, src: '/imgs/symbols/' + row.party + '.png' },
       sortable: false,
       filterable: false,
     } as GridColDef<any, { src: string; name: string }>,

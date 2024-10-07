@@ -32,3 +32,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## references
+
+https://elections.gov.lk/web/wp-content/uploads/2024/09/PRE_2024_Details.PDF
+https://results.elections.gov.lk/
+https://simplemaps.com/svg/country/lk#admin1
+https://upload.wikimedia.org/wikipedia/en/b/be/Agalawatta_Polling_Division_Sri_Lanka.svg
+https://www.vincentbroute.fr/mapael/svg-to-mapael.php
+https://mapsvg.com/maps/sri-lanka
+https://simplemaps.com/svg/country/lk

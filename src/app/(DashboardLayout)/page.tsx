@@ -8,6 +8,7 @@ import RecentTransactions from '@/app/(DashboardLayout)/components/dashboard/Rec
 import ProductPerformance from '@/app/(DashboardLayout)/components/dashboard/ProductPerformance';
 import Blog from '@/app/(DashboardLayout)/components/dashboard/Blog';
 import MonthlyEarnings from '@/app/(DashboardLayout)/components/dashboard/MonthlyEarnings';
+import SriLankaGeoChart from './components/dashboard/SriLankaGeoChart';
 
 const Dashboard = () => {
   return (
@@ -18,7 +19,8 @@ const Dashboard = () => {
       <Box>
         <Grid container spacing={3}>
           <Grid item xs={12} lg={8}>
-            <SalesOverview />
+            {/* <SalesOverview /> */}
+            <SriLankaGeoChart />
           </Grid>
           <Grid item xs={12} lg={4}>
             <Grid container spacing={3}>
